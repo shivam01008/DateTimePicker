@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtdate"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="Time Picker"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/txttime"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="247dp"
+        android:gravity="center"
+        android:text="DatePicker"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btntime"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="250dp"
+        android:text="Date Picker" />
+
+    <Button
+        android:id="@+id/btndate"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/txttime"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="388dp"
+        android:text="Time Picker" />
+</RelativeLayout>
+
+
+
+
+
+
